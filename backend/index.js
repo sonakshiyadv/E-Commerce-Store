@@ -18,8 +18,8 @@ connectDB();
 const app = express();
 
 app.use(cors({
-    // origin: "https://e-commerce-store-nu-six.vercel.app", // For production, uncomment this line and comment the below line
-    origin: "*", // For local development, uncomment this line and comment the above line
+    origin: "https://e-commerce-store-phi-coral.vercel.app/", // For production, uncomment this line and comment the below line
+    // origin: "*", // For local development, uncomment this line and comment the above line
   credentials: true,
 }))
 
